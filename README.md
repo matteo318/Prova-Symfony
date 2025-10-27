@@ -26,7 +26,7 @@ Nel file .env DATABASE_URL è configurato per usare MariaDb
 
 5-Creazione migrazioni:
 
-php bin/console doctrine:migrations:migrate
+docker exec -it symfony_php php bin/console doctrine:migrations:migrate
 
 6-Avviare docker
 
