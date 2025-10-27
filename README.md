@@ -28,7 +28,7 @@ Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avv
 
 6-Per accedere all'applicazione
 
-http://localhost:8080
+http://localhost
 
 Importazione Database(dump.sql)
 
