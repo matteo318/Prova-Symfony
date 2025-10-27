@@ -12,8 +12,9 @@
 
 2-Clonare il repository
 
+Apri il terminale e naviga nella cartella dove vuoi clonare il progetto. Esegui il comando seguente per clonare il repository:
 
-
+git clone https://github.com/matteo318/Prova-Symfony.git
 
 3-Installazione dipendenze:
 
