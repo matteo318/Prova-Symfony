@@ -24,7 +24,7 @@ php bin/console doctrine:migrations:migrate
 
 5-Avviare docker
 
-Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avvia i srvizi in backround 
+Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avvia i srvizi in backround)
  
  
 
