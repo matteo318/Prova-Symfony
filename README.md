@@ -24,8 +24,29 @@ php bin/console doctrine:migrations:migrate
 
 5-Avviare docker
 
-Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avvia i srvizi in backround)
- 
+Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avvia i servizi in backround)
+
+6-Per accedere all'applicazione
+
+http://localhost:8080
+
+Importazione Database(dump.sql)
+
+1-Assicurati che i container siano in esecuzione con:
+
+docker compose up -d
+
+
+2-Importa il dump nel database MariaDB:
+
+docker exec -i symfony_mariadb mysql -u user -ppassword symfony < dump.sql
+
+
+3-Verifica l'importazione entrando nel container MariaDB:
+
+docker exec -it symfony_mariadb
+mysql -u user -ppassword symfony
+
  
 
 
