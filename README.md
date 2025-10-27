@@ -24,13 +24,13 @@ Nella cartella del progetto usare il comando "composer install" all'interno del 
 
 Nel file .env DATABASE_URL è configurato per usare MariaDb
 
-5-Creazione migrazioni:
-
-docker exec -it symfony_php php bin/console doctrine:migrations:migrate
-
-6-Avviare docker
+5-Avviare docker
 
 Aprire docker dekstop e usare il camando docker compose -f compose up -d (-d avvia i servizi in backround)
+
+6-Creazione migrazioni:
+
+docker exec -it symfony_php php bin/console doctrine:migrations:migrate
 
 7-Per accedere all'applicazione
 
